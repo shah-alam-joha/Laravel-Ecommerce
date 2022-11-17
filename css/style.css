@@ -1,0 +1,133 @@
+html{
+    height: 100%;
+}
+
+
+body {
+    position: relative;
+    min-height: 100%;
+    color: black;
+    font-family: tahoma;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/*navbar css */
+
+.nav-margin-down {
+    margin-top: 12px;
+    margin-bottom: -10px;
+}
+
+.search-icon-button {
+background: #fdd922;
+border: 1px solid #fdd922;
+transition: .4s;
+}
+
+.search-icon-button:hover {
+background: #fdd922;
+border: 1px solid #fdd922;
+color: white;
+}
+
+.btn-cart-nav{
+
+}
+.btn-cart-nav:hover {
+    background: inherit!important;
+}
+
+li.nav-item {
+    margin-right: 5px;
+    padding-right: 10px;
+}
+
+
+/*navbar css ends*/
+
+/*override css*/
+.bg-light {
+    background-color: #3042d2!important;
+}
+
+.margin-top-20{
+	margin-top: 20px;
+}
+
+.feature-img{
+	max-height: 200px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.footer-bottom {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #262626;
+    color: #FFF;
+}
+
+/* 
+searched product item's background color
+*/
+.product-item{
+	background: gray;
+
+}
+
+.child-rows {
+    padding-left: 20px;
+    border-left: 1px solid #dfdfdf;
+    background: white;
+}
+
+.child-rows a.list-group-item{
+	border-left: 0px!important;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #3042d2;
+    border-color: #3042d2;
+    border-radius: 0px!important;
+}
+
+/*Bootstrap css overwriting*/
+
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 20px;
+    border-radius: 30px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: rgb(219 21 21 / 50%);
+}
+
+.carousel-caption h5 {
+    color: skyblue;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #000;
+    background: white;
+    border-radius: 10px;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+     color: #000;
+    background: white;
+    border-radius: 10px;
+}
